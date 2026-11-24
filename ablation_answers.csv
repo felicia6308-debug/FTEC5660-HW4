@@ -1,0 +1,546 @@
+variant,id,answer,answerable,correct
+B0,q001,NOT_FOUND,False,True
+B0,q002,1574.7,True,True
+B0,q003,NOT_FOUND,True,False
+B0,q004,NOT_FOUND,True,False
+B0,q005,NOT_FOUND,False,True
+B0,q006,NOT_FOUND,False,True
+B0,q007,BUY,True,True
+B0,q008,8.5,True,True
+B0,q009,2390.3,True,True
+B0,q010,NOT_FOUND,True,False
+B0,q011,NOT_FOUND,False,True
+B0,q012,NOT_FOUND,True,False
+B0,q013,Brightwater Energy Corp.,True,True
+B0,q014,Rachel Nyberg,True,True
+B0,q015,NOT_FOUND,True,False
+B0,q016,NOT_FOUND,True,False
+B0,q017,NOT_FOUND,True,False
+B0,q018,NOT_FOUND,True,False
+B0,q019,NOT_FOUND,False,True
+B0,q020,NOT_FOUND,True,False
+B0,q021,NOT_FOUND,True,False
+B0,q022,NOT_FOUND,True,False
+B0,q023,NOT_FOUND,True,False
+B0,q024,NOT_FOUND,True,False
+B0,q025,NOT_FOUND,False,True
+B0,q026,446.9,True,True
+B0,q027,Memphis,True,True
+B0,q028,NOT_FOUND,False,True
+B0,q029,2605.8,True,True
+B0,q030,NOT_FOUND,True,False
+B0,q031,NOT_FOUND,True,False
+B0,q032,NOT_FOUND,False,True
+B0,q033,NOT_FOUND,False,True
+B0,q034,NOT_FOUND,False,True
+B0,q035,61.16,True,True
+B0,q036,NOT_FOUND,True,False
+B0,q037,NOT_FOUND,True,False
+B0,q038,NOT_FOUND,True,False
+B0,q039,NOT_FOUND,False,True
+B0,q040,162.6,True,True
+B0,q041,NOT_FOUND,False,True
+B0,q042,William Petrov,True,True
+B0,q043,NOT_FOUND,True,False
+B0,q044,NOT_FOUND,False,True
+B0,q045,NOT_FOUND,True,False
+B0,q046,NOT_FOUND,True,False
+B0,q047,NOT_FOUND,True,False
+B0,q048,Thomas Kaur,True,True
+B0,q049,NOT_FOUND,False,True
+B0,q050,NOT_FOUND,True,False
+B0,q051,NOT_FOUND,True,False
+B0,q052,NOT_FOUND,True,False
+B0,q053,Corvane Pharma Ltd.,True,True
+B0,q054,NOT_FOUND,True,False
+B0,q055,NOT_FOUND,True,False
+B0,q056,NOT_FOUND,True,False
+B0,q057,NOT_FOUND,True,False
+B0,q058,NOT_FOUND,True,False
+B0,q059,NOT_FOUND,True,False
+B0,q060,NOT_FOUND,True,False
+V1,q001,NOT_FOUND,False,True
+V1,q002,1574.7,True,True
+V1,q003,NOT_FOUND,True,False
+V1,q004,NOT_FOUND,True,False
+V1,q005,NOT_FOUND,False,True
+V1,q006,NOT_FOUND,False,True
+V1,q007,BUY,True,True
+V1,q008,8.5,True,True
+V1,q009,2390.3,True,True
+V1,q010,Yara Castillo,True,True
+V1,q011,NOT_FOUND,False,True
+V1,q012,NOT_FOUND,True,False
+V1,q013,NOT_FOUND,True,False
+V1,q014,Rachel Nyberg,True,True
+V1,q015,NOT_FOUND,True,False
+V1,q016,NOT_FOUND,True,False
+V1,q017,NOT_FOUND,True,False
+V1,q018,NOT_FOUND,True,False
+V1,q019,NOT_FOUND,False,True
+V1,q020,NOT_FOUND,True,False
+V1,q021,NOT_FOUND,True,False
+V1,q022,NOT_FOUND,True,False
+V1,q023,NOT_FOUND,True,False
+V1,q024,NOT_FOUND,True,False
+V1,q025,NOT_FOUND,False,True
+V1,q026,446.9,True,True
+V1,q027,Memphis,True,True
+V1,q028,NOT_FOUND,False,True
+V1,q029,2605.8,True,True
+V1,q030,363.2,True,True
+V1,q031,NOT_FOUND,True,False
+V1,q032,NOT_FOUND,False,True
+V1,q033,NOT_FOUND,False,True
+V1,q034,NOT_FOUND,False,True
+V1,q035,61.16,True,True
+V1,q036,NOT_FOUND,True,False
+V1,q037,NOT_FOUND,True,False
+V1,q038,NOT_FOUND,True,False
+V1,q039,NOT_FOUND,False,True
+V1,q040,NOT_FOUND,True,False
+V1,q041,NOT_FOUND,False,True
+V1,q042,NOT_FOUND,True,False
+V1,q043,NOT_FOUND,True,False
+V1,q044,NOT_FOUND,False,True
+V1,q045,NOT_FOUND,True,False
+V1,q046,NOT_FOUND,True,False
+V1,q047,NOT_FOUND,True,False
+V1,q048,Thomas Kaur,True,True
+V1,q049,NOT_FOUND,False,True
+V1,q050,NOT_FOUND,True,False
+V1,q051,NOT_FOUND,True,False
+V1,q052,3175.5,True,True
+V1,q053,Corvane Pharma,True,True
+V1,q054,NOT_FOUND,True,False
+V1,q055,NOT_FOUND,True,False
+V1,q056,NOT_FOUND,True,False
+V1,q057,NOT_FOUND,True,False
+V1,q058,NOT_FOUND,True,False
+V1,q059,William Lambert,True,True
+V1,q060,NOT_FOUND,True,False
+V2,q001,NOT_FOUND,False,True
+V2,q002,1574.7,True,True
+V2,q003,Northgate Robotics Inc.,True,True
+V2,q004,NOT_FOUND,True,False
+V2,q005,NOT_FOUND,False,True
+V2,q006,NOT_FOUND,False,True
+V2,q007,BUY,True,True
+V2,q008,8.5,True,True
+V2,q009,2390.3,True,True
+V2,q010,NOT_FOUND,True,False
+V2,q011,NOT_FOUND,False,True
+V2,q012,NOT_FOUND,True,False
+V2,q013,NOT_FOUND,True,False
+V2,q014,Rachel Nyberg,True,True
+V2,q015,NOT_FOUND,True,False
+V2,q016,NOT_FOUND,True,False
+V2,q017,Brightwater Software Inc.,True,False
+V2,q018,NOT_FOUND,True,False
+V2,q019,NOT_FOUND,False,True
+V2,q020,NOT_FOUND,True,False
+V2,q021,NOT_FOUND,True,False
+V2,q022,NOT_FOUND,True,False
+V2,q023,NOT_FOUND,True,False
+V2,q024,NOT_FOUND,True,False
+V2,q025,NOT_FOUND,False,True
+V2,q026,NOT_FOUND,True,False
+V2,q027,Memphis,True,True
+V2,q028,NOT_FOUND,False,True
+V2,q029,NOT_FOUND,True,False
+V2,q030,NOT_FOUND,True,False
+V2,q031,NOT_FOUND,True,False
+V2,q032,NOT_FOUND,False,True
+V2,q033,NOT_FOUND,False,True
+V2,q034,NOT_FOUND,False,True
+V2,q035,NOT_FOUND,True,False
+V2,q036,NOT_FOUND,True,False
+V2,q037,NOT_FOUND,True,False
+V2,q038,NOT_FOUND,True,False
+V2,q039,NOT_FOUND,False,True
+V2,q040,NOT_FOUND,True,False
+V2,q041,NOT_FOUND,False,True
+V2,q042,William Petrov,True,True
+V2,q043,NOT_FOUND,True,False
+V2,q044,231.3,False,False
+V2,q045,NOT_FOUND,True,False
+V2,q046,NOT_FOUND,True,False
+V2,q047,NOT_FOUND,True,False
+V2,q048,Thomas Kaur,True,True
+V2,q049,NOT_FOUND,False,True
+V2,q050,NOT_FOUND,True,False
+V2,q051,NOT_FOUND,True,False
+V2,q052,NOT_FOUND,True,False
+V2,q053,Corvane Pharma,True,True
+V2,q054,NOT_FOUND,True,False
+V2,q055,NOT_FOUND,True,False
+V2,q056,NOT_FOUND,True,False
+V2,q057,NOT_FOUND,True,False
+V2,q058,NOT_FOUND,True,False
+V2,q059,NOT_FOUND,True,False
+V2,q060,NOT_FOUND,True,False
+V3,q001,NOT_FOUND,False,True
+V3,q002,1574.7,True,True
+V3,q003,Northgate Robotics,True,True
+V3,q004,Kestrel Semiconductor,True,True
+V3,q005,NOT_FOUND,False,True
+V3,q006,NOT_FOUND,False,True
+V3,q007,BUY,True,True
+V3,q008,8.5,True,True
+V3,q009,2390.3,True,True
+V3,q010,Yara Castillo,True,True
+V3,q011,NOT_FOUND,False,True
+V3,q012,838.4,True,True
+V3,q013,Brightwater Energy Corp.,True,True
+V3,q014,Rachel Nyberg,True,True
+V3,q015,Whitlock Byrne LLP,True,True
+V3,q016,1769.4,True,False
+V3,q017,Brightwater Energy Corp.,True,True
+V3,q018,75,True,True
+V3,q019,NOT_FOUND,False,True
+V3,q020,716.6,True,True
+V3,q021,Northgate Robotics,True,True
+V3,q022,Orchid Bay Hotels,True,True
+V3,q023,Sablewood Retail,True,True
+V3,q024,316.2,True,True
+V3,q025,NOT_FOUND,False,True
+V3,q026,446.9,True,True
+V3,q027,Memphis,True,True
+V3,q028,NOT_FOUND,False,True
+V3,q029,2605.8,True,True
+V3,q030,363.2,True,True
+V3,q031,NOT_FOUND,True,False
+V3,q032,NOT_FOUND,False,True
+V3,q033,NOT_FOUND,False,True
+V3,q034,NOT_FOUND,False,True
+V3,q035,61.16,True,True
+V3,q036,236.6,True,True
+V3,q037,Northgate Robotics,True,True
+V3,q038,173.9,True,True
+V3,q039,NOT_FOUND,False,True
+V3,q040,NOT_FOUND,True,False
+V3,q041,NOT_FOUND,False,True
+V3,q042,William Petrov,True,True
+V3,q043,586.6,True,True
+V3,q044,NOT_FOUND,False,True
+V3,q045,634.6,True,True
+V3,q046,NOT_FOUND,True,False
+V3,q047,2711.4,True,True
+V3,q048,Thomas Kaur,True,True
+V3,q049,NOT_FOUND,False,True
+V3,q050,493.5,True,True
+V3,q051,492.1,True,True
+V3,q052,3175.5,True,True
+V3,q053,Corvane Pharma,True,True
+V3,q054,NOT_FOUND,True,False
+V3,q055,456.2,True,True
+V3,q056,Kestrel Semiconductor,True,True
+V3,q057,153.8,True,True
+V3,q058,Corvane Pharma,True,True
+V3,q059,William Lambert,True,True
+V3,q060,2083.1,True,True
+V4,q001,NOT_FOUND,False,True
+V4,q002,1574.7,True,True
+V4,q003,Northgate Robotics,True,True
+V4,q004,NOT_FOUND,True,False
+V4,q005,NOT_FOUND,False,True
+V4,q006,NOT_FOUND,False,True
+V4,q007,BUY,True,True
+V4,q008,8.5,True,True
+V4,q009,2390.3,True,True
+V4,q010,Yara Castillo,True,True
+V4,q011,NOT_FOUND,False,True
+V4,q012,838.4,True,True
+V4,q013,Brightwater Energy Corp.,True,True
+V4,q014,Rachel Nyberg,True,True
+V4,q015,Whitlock Byrne LLP,True,True
+V4,q016,1769.6,True,False
+V4,q017,Brightwater Energy Corp.,True,True
+V4,q018,75,True,True
+V4,q019,NOT_FOUND,False,True
+V4,q020,716.6,True,True
+V4,q021,NOT_FOUND,True,False
+V4,q022,NOT_FOUND,True,False
+V4,q023,Sablewood Retail,True,True
+V4,q024,NOT_FOUND,True,False
+V4,q025,NOT_FOUND,False,True
+V4,q026,446.9,True,True
+V4,q027,Memphis,True,True
+V4,q028,NOT_FOUND,False,True
+V4,q029,2605.8,True,True
+V4,q030,363.2,True,True
+V4,q031,NOT_FOUND,True,False
+V4,q032,NOT_FOUND,False,True
+V4,q033,NOT_FOUND,False,True
+V4,q034,NOT_FOUND,False,True
+V4,q035,61.16,True,True
+V4,q036,236.6,True,True
+V4,q037,"To answer this, I need operating income for each company in FY2024.
+
+**Northgate Robotics (doc_028, FY2024):**
+- Revenue: USD 2.6 billion
+- Operating margin: 11.7%
+- Operating income = 2.6 × 0.117 =",True,True
+V4,q038,173.9,True,True
+V4,q039,NOT_FOUND,False,True
+V4,q040,NOT_FOUND,True,False
+V4,q041,NOT_FOUND,False,True
+V4,q042,William Petrov,True,True
+V4,q043,586.6,True,True
+V4,q044,NOT_FOUND,False,True
+V4,q045,634.6,True,True
+V4,q046,NOT_FOUND,True,False
+V4,q047,2711.4,True,True
+V4,q048,Thomas Kaur,True,True
+V4,q049,NOT_FOUND,False,True
+V4,q050,493.5,True,True
+V4,q051,492.1,True,True
+V4,q052,3175.5,True,True
+V4,q053,Corvane Pharma,True,True
+V4,q054,297.4,True,True
+V4,q055,456.2,True,True
+V4,q056,Kestrel Semiconductor,True,True
+V4,q057,153.8,True,True
+V4,q058,Corvane Pharma,True,True
+V4,q059,William Lambert,True,True
+V4,q060,"2,083.1",True,True
+V5,q001,NOT_FOUND,False,True
+V5,q002,1574.7,True,True
+V5,q003,Northgate Robotics,True,True
+V5,q004,Kestrel Semiconductor Ltd.,True,True
+V5,q005,NOT_FOUND,False,True
+V5,q006,NOT_FOUND,False,True
+V5,q007,BUY,True,True
+V5,q008,8.5,True,True
+V5,q009,2390.3,True,True
+V5,q010,Yara Castillo,True,True
+V5,q011,NOT_FOUND,False,True
+V5,q012,838.4,True,True
+V5,q013,Brightwater Energy Corp.,True,True
+V5,q014,Rachel Nyberg,True,True
+V5,q015,Whitlock Byrne LLP,True,True
+V5,q016,1805.4,True,True
+V5,q017,Brightwater Energy Corp.,True,True
+V5,q018,75,True,True
+V5,q019,NOT_FOUND,False,True
+V5,q020,716.6,True,True
+V5,q021,Northgate Robotics,True,True
+V5,q022,Orchid Bay Hotels,True,True
+V5,q023,Sablewood Retail,True,True
+V5,q024,316.2,True,True
+V5,q025,NOT_FOUND,False,True
+V5,q026,446.9,True,True
+V5,q027,Memphis,True,True
+V5,q028,NOT_FOUND,False,True
+V5,q029,2605.8,True,True
+V5,q030,363.2,True,True
+V5,q031,Brightwater Energy,True,True
+V5,q032,NOT_FOUND,False,True
+V5,q033,NOT_FOUND,False,True
+V5,q034,NOT_FOUND,False,True
+V5,q035,61.16,True,True
+V5,q036,236.6,True,True
+V5,q037,Northgate Robotics,True,True
+V5,q038,173.9,True,True
+V5,q039,NOT_FOUND,False,True
+V5,q040,162.6,True,True
+V5,q041,NOT_FOUND,False,True
+V5,q042,William Petrov,True,True
+V5,q043,586.6,True,True
+V5,q044,NOT_FOUND,False,True
+V5,q045,634.6,True,True
+V5,q046,897.8,True,True
+V5,q047,2711.4,True,True
+V5,q048,Thomas Kaur,True,True
+V5,q049,NOT_FOUND,False,True
+V5,q050,493.5,True,True
+V5,q051,492.1,True,True
+V5,q052,3175.5,True,True
+V5,q053,Corvane Pharma Ltd.,True,True
+V5,q054,297.4,True,True
+V5,q055,456.2,True,True
+V5,q056,Kestrel Semiconductor,True,True
+V5,q057,153.8,True,True
+V5,q058,Corvane Pharma Ltd.,True,True
+V5,q059,William Lambert,True,True
+V5,q060,"2,083.1",True,True
+V6,q001,NOT_FOUND,False,True
+V6,q002,1574.7,True,True
+V6,q003,Northgate Robotics,True,True
+V6,q004,Kestrel Semiconductor Ltd.,True,True
+V6,q005,NOT_FOUND,False,True
+V6,q006,NOT_FOUND,False,True
+V6,q007,BUY,True,True
+V6,q008,8.5,True,True
+V6,q009,2390.3,True,True
+V6,q010,Yara Castillo,True,True
+V6,q011,NOT_FOUND,False,True
+V6,q012,838.4,True,True
+V6,q013,Brightwater Energy Corp.,True,True
+V6,q014,Rachel Nyberg,True,True
+V6,q015,Whitlock Byrne LLP,True,True
+V6,q016,1805.4,True,True
+V6,q017,Brightwater Energy Corp.,True,True
+V6,q018,75,True,True
+V6,q019,NOT_FOUND,False,True
+V6,q020,716.6,True,True
+V6,q021,Northgate Robotics,True,True
+V6,q022,Orchid Bay Hotels,True,True
+V6,q023,Sablewood Retail,True,True
+V6,q024,316.2,True,True
+V6,q025,NOT_FOUND,False,True
+V6,q026,446.9,True,True
+V6,q027,Memphis,True,True
+V6,q028,NOT_FOUND,False,True
+V6,q029,2605.8,True,True
+V6,q030,363.2,True,True
+V6,q031,Brightwater Energy,True,True
+V6,q032,NOT_FOUND,False,True
+V6,q033,NOT_FOUND,False,True
+V6,q034,NOT_FOUND,False,True
+V6,q035,61.16,True,True
+V6,q036,236.6,True,True
+V6,q037,Northgate Robotics,True,True
+V6,q038,173.9,True,True
+V6,q039,NOT_FOUND,False,True
+V6,q040,162.6,True,True
+V6,q041,NOT_FOUND,False,True
+V6,q042,William Petrov,True,True
+V6,q043,586.6,True,True
+V6,q044,NOT_FOUND,False,True
+V6,q045,634.6,True,True
+V6,q046,897.8,True,True
+V6,q047,2711.4,True,True
+V6,q048,Thomas Kaur,True,True
+V6,q049,NOT_FOUND,False,True
+V6,q050,493.5,True,True
+V6,q051,492.1,True,True
+V6,q052,3175.5,True,True
+V6,q053,Corvane Pharma,True,True
+V6,q054,297.4,True,True
+V6,q055,456.2,True,True
+V6,q056,Kestrel Semiconductor Ltd.,True,True
+V6,q057,153.8,True,True
+V6,q058,Corvane Pharma Ltd.,True,True
+V6,q059,William Lambert,True,True
+V6,q060,"2,083.1",True,True
+V7,q001,NOT_FOUND,False,True
+V7,q002,1574.7,True,True
+V7,q003,Northgate Robotics,True,True
+V7,q004,Kestrel Semiconductor,True,True
+V7,q005,NOT_FOUND,False,True
+V7,q006,NOT_FOUND,False,True
+V7,q007,BUY,True,True
+V7,q008,8.5,True,True
+V7,q009,2390.3,True,True
+V7,q010,Yara Castillo,True,True
+V7,q011,NOT_FOUND,False,True
+V7,q012,838.4,True,True
+V7,q013,Brightwater Energy Corp.,True,True
+V7,q014,Rachel Nyberg,True,True
+V7,q015,Whitlock Byrne LLP,True,True
+V7,q016,1805.4,True,True
+V7,q017,Brightwater Energy Corp.,True,True
+V7,q018,75,True,True
+V7,q019,NOT_FOUND,False,True
+V7,q020,716.6,True,True
+V7,q021,Northgate Robotics Inc.,True,True
+V7,q022,Orchid Bay Hotels,True,True
+V7,q023,Sablewood Retail,True,True
+V7,q024,316.2,True,True
+V7,q025,NOT_FOUND,False,True
+V7,q026,446.9,True,True
+V7,q027,Memphis,True,True
+V7,q028,NOT_FOUND,False,True
+V7,q029,2605.8,True,True
+V7,q030,363.2,True,True
+V7,q031,Brightwater Energy Corp.,True,True
+V7,q032,NOT_FOUND,False,True
+V7,q033,NOT_FOUND,False,True
+V7,q034,NOT_FOUND,False,True
+V7,q035,61.16,True,True
+V7,q036,236.6,True,True
+V7,q037,Northgate Robotics,True,True
+V7,q038,173.9,True,True
+V7,q039,NOT_FOUND,False,True
+V7,q040,162.6,True,True
+V7,q041,NOT_FOUND,False,True
+V7,q042,William Petrov,True,True
+V7,q043,586.6,True,True
+V7,q044,NOT_FOUND,False,True
+V7,q045,634.6,True,True
+V7,q046,897.8,True,True
+V7,q047,2711.4,True,True
+V7,q048,Thomas Kaur,True,True
+V7,q049,NOT_FOUND,False,True
+V7,q050,493.5,True,True
+V7,q051,492.1,True,True
+V7,q052,3175.5,True,True
+V7,q053,Corvane Pharma Ltd.,True,True
+V7,q054,297.4,True,True
+V7,q055,456.2,True,True
+V7,q056,Kestrel Semiconductor,True,True
+V7,q057,153.8,True,True
+V7,q058,Corvane Pharma Ltd.,True,True
+V7,q059,William Lambert,True,True
+V7,q060,2083.1,True,True
+V8,q001,NOT_FOUND,False,True
+V8,q002,1574.7,True,True
+V8,q003,Northgate Robotics,True,True
+V8,q004,Kestrel Semiconductor,True,True
+V8,q005,NOT_FOUND,False,True
+V8,q006,NOT_FOUND,False,True
+V8,q007,BUY,True,True
+V8,q008,8.5,True,True
+V8,q009,2390.3,True,True
+V8,q010,Yara Castillo,True,True
+V8,q011,NOT_FOUND,False,True
+V8,q012,838.4,True,True
+V8,q013,Brightwater Energy Corp.,True,True
+V8,q014,Rachel Nyberg,True,True
+V8,q015,Whitlock Byrne LLP,True,True
+V8,q016,1805.4,True,True
+V8,q017,Brightwater Energy Corp.,True,True
+V8,q018,75,True,True
+V8,q019,NOT_FOUND,False,True
+V8,q020,716.6,True,True
+V8,q021,Northgate Robotics Inc.,True,True
+V8,q022,Orchid Bay Hotels,True,True
+V8,q023,Sablewood Retail Inc.,True,True
+V8,q024,316.2,True,True
+V8,q025,NOT_FOUND,False,True
+V8,q026,446.9,True,True
+V8,q027,Memphis,True,True
+V8,q028,NOT_FOUND,False,True
+V8,q029,2605.8,True,True
+V8,q030,363.2,True,True
+V8,q031,Brightwater Energy Corp.,True,True
+V8,q032,NOT_FOUND,False,True
+V8,q033,NOT_FOUND,False,True
+V8,q034,NOT_FOUND,False,True
+V8,q035,61.16,True,True
+V8,q036,236.6,True,True
+V8,q037,Northgate Robotics,True,True
+V8,q038,173.9,True,True
+V8,q039,NOT_FOUND,False,True
+V8,q040,162.6,True,True
+V8,q041,NOT_FOUND,False,True
+V8,q042,William Petrov,True,True
+V8,q043,586.6,True,True
+V8,q044,NOT_FOUND,False,True
+V8,q045,634.6,True,True
+V8,q046,897.8,True,True
+V8,q047,2711.4,True,True
+V8,q048,Thomas Kaur,True,True
+V8,q049,NOT_FOUND,False,True
+V8,q050,493.5,True,True
+V8,q051,492.1,True,True
+V8,q052,3175.5,True,True
+V8,q053,Corvane Pharma Ltd.,True,True
+V8,q054,297.4,True,True
+V8,q055,456.2,True,True
+V8,q056,Kestrel Semiconductor,True,True
+V8,q057,153.8,True,True
+V8,q058,Corvane Pharma Ltd.,True,True
+V8,q059,William Lambert,True,True
+V8,q060,2083.1,True,True

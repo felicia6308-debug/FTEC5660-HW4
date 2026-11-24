@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="880" viewBox="0 0 960 880" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6b7c"/>
+    </marker>
+    <style>
+      .box   { fill:#ffffff; stroke:#3b4a5a; stroke-width:1.6; rx:8; }
+      .mine  { fill:#eef5ff; stroke:#1f6feb; stroke-width:2; rx:8; }
+      .given { fill:#f4f4f4; stroke:#8a8a8a; stroke-width:1.4; stroke-dasharray:5 3; rx:8; }
+      .t     { font-size:15px; fill:#16222e; }
+      .tb    { font-size:15px; fill:#16222e; font-weight:bold; }
+      .s     { font-size:12.5px; fill:#5b6b7c; }
+      .lane  { font-size:12px; fill:#1f6feb; font-weight:bold; letter-spacing:1px; }
+      .ln    { stroke:#5b6b7c; stroke-width:1.6; fill:none; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <text x="40" y="28" font-size="17" font-weight="bold" fill="#16222e">HW4 pipeline — retrieval side of a RAG assistant over company reports</text>
+
+  <!-- lane 1: once per run -->
+  <text class="lane" x="40" y="58">ONCE PER RUN — INDEXING</text>
+
+  <rect class="given" x="40" y="68" width="620" height="42"/>
+  <text class="t" x="56" y="88">corpus/ — 40 HTML documents: 10 companies &#215; 4 documents</text>
+  <text class="s" x="56" y="104">annual reports FY2024 and FY2025, Q4 FY2025 earnings call, FY2025 research report</text>
+
+  <line class="ln" x1="350" y1="110" x2="350" y2="128"/>
+
+  <rect class="mine" x="40" y="128" width="620" height="44"/>
+  <text class="tb" x="56" y="148">table_to_text() — Task 1.1</text>
+  <text class="s" x="56" y="165">&lt;thead&gt; gives the column headers, spans expanded, caption kept, values unchanged</text>
+
+  <line class="ln" x1="350" y1="172" x2="350" y2="190"/>
+
+  <rect class="mine" x="40" y="190" width="620" height="44"/>
+  <text class="tb" x="56" y="210">chunk_document() — Task 1.2</text>
+  <text class="s" x="56" y="227">section packing, at most 1500 characters, metadata: source / company / fiscal_year / doc_type</text>
+
+  <line class="ln" x1="350" y1="234" x2="350" y2="252"/>
+
+  <rect class="mine" x="40" y="252" width="620" height="44"/>
+  <text class="tb" x="56" y="272">build_index() — 779 chunks</text>
+  <text class="s" x="56" y="289">BM25Okapi over lower-cased, lightly stemmed tokens</text>
+
+  <!-- lane 2: per question -->
+  <text class="lane" x="40" y="334">PER QUESTION — RETRIEVAL</text>
+
+  <rect class="given" x="40" y="344" width="620" height="34"/>
+  <text class="t" x="56" y="366">question</text>
+
+  <line class="ln" x1="350" y1="378" x2="350" y2="396"/>
+
+  <rect class="mine" x="40" y="396" width="620" height="44"/>
+  <text class="tb" x="56" y="416">parse_query() — Task 2.2</text>
+  <text class="s" x="56" y="433">match corpus names and candidate decoys, then extract fiscal year and document type</text>
+
+  <line class="ln" x1="350" y1="440" x2="350" y2="458"/>
+
+  <rect class="mine" x="40" y="458" width="620" height="44"/>
+  <text class="tb" x="56" y="478">metadata filter</text>
+  <text class="s" x="56" y="495">keep the named company and doc type, and documents that print the named year</text>
+
+  <line class="ln" x1="350" y1="502" x2="350" y2="520"/>
+
+  <rect class="mine" x="40" y="520" width="620" height="44"/>
+  <text class="tb" x="56" y="540">BM25 ranking on the filtered pool</text>
+  <text class="s" x="56" y="557">stop words and company names dropped, so the attribute carries the weight</text>
+
+  <line class="ln" x1="350" y1="564" x2="350" y2="582"/>
+
+  <rect class="mine" x="40" y="582" width="620" height="44"/>
+  <text class="tb" x="56" y="602">table boost on figure questions</text>
+  <text class="s" x="56" y="619">+15% for chunks that look like tables, so the exact figure beats the rounded one</text>
+
+  <line class="ln" x1="350" y1="626" x2="350" y2="644"/>
+
+  <rect class="mine" x="40" y="644" width="620" height="44"/>
+  <text class="tb" x="56" y="664">per-company quota</text>
+  <text class="s" x="56" y="681">a comparison gets chunks for both companies, never five chunks of one</text>
+
+  <line class="ln" x1="350" y1="688" x2="350" y2="706"/>
+
+  <rect class="mine" x="40" y="706" width="620" height="44"/>
+  <text class="tb" x="56" y="726">abstention — Task 3</text>
+  <text class="s" x="56" y="743">decoy company &#183; uncovered fiscal year &#183; attribute the corpus never mentions</text>
+
+  <line class="ln" x1="350" y1="750" x2="350" y2="768"/>
+
+  <rect class="given" x="40" y="768" width="620" height="44"/>
+  <text class="tb" x="56" y="788">top-5 chunks &#8594; generate() (fixed, given) &#8594; one number, one name, or NOT FOUND</text>
+  <text class="s" x="56" y="805">the generator only ever sees these five chunks</text>
+
+  <!-- abstention branch -->
+  <line class="ln" x1="662" y1="728" x2="712" y2="728"/>
+  <rect class="given" x="712" y="706" width="210" height="44"/>
+  <text class="tb" x="728" y="726">return []</text>
+  <text class="s" x="728" y="743">the generator is not called</text>
+
+  <line class="ln" x1="817" y1="750" x2="817" y2="782"/>
+  <rect class="given" x="712" y="782" width="210" height="34"/>
+  <text class="t" x="728" y="804">answer = NOT_FOUND</text>
+
+  <text class="s" x="712" y="672">not answerable?</text>
+</svg>
